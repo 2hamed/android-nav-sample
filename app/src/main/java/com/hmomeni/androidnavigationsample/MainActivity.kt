@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        (application as App).di.inject(this)
+
         setContentView(R.layout.activity_main)
         navController = findNavController(R.id.mainNav)
 
