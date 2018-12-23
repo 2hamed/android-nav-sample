@@ -1,6 +1,6 @@
 package com.hmomeni.androidnavigationsample.di
 
-import com.hmomeni.androidnavigationsample.NavEvent
+import com.hmomeni.androidnavigationsample.nav.NavEvent
 import dagger.Module
 import dagger.Provides
 import io.reactivex.processors.PublishProcessor
